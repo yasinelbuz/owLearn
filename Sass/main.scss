@@ -13,8 +13,8 @@ body{
 .header{
     padding-top:33px;
     padding-bottom:33px;
-    padding-left:50px;
-    padding-right:50px;
+    padding-left:100px;
+    padding-right:100px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -62,8 +62,8 @@ body{
 main.container{
     padding-top:33px;
     padding-bottom:33px;
-    padding-left:50px;
-    padding-right:50px;
+    padding-left:100px;
+    padding-right:100px;
 }
 
 // Banner
@@ -71,6 +71,7 @@ main.container{
     display:flex;
     justify-content:space-between;
     align-items: flex-start;
+    margin-bottom:50px;
 
     &-left{
         width:600px;
@@ -133,4 +134,97 @@ main.container{
         }
 
     }
+}
+
+// Partner Logo
+.partners{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:80px;
+
+    &-text{
+        width:308px;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 150%;
+        text-transform: capitalize;
+        color: #230F0F;
+        row-gap: 84px;
+    }
+}
+
+// About Us
+.aboutUs{
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    margin-bottom:80px;
+
+    &-left{
+        position:relative;
+        width:550px;
+
+        &-pictureOn{
+            position:absolute;
+            bottom:25px;
+            left:35px;
+            h3{
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 150%;
+                letter-spacing: 0.4px;
+                color: #FFFFFF;
+            }
+            address{
+                display:flex;
+                justify-content: flex-start;
+                align-items: center;
+                img{
+                    margin-right:5px;
+                }
+            }
+            span{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    &-right{
+        width:590px;
+        h2{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 150%;
+            letter-spacing: 0.4px;
+            color: #230F0F;
+            margin-bottom:30px;
+        }
+        p{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 165%;
+            letter-spacing: 0.5px;
+            color: #230F0F;
+            opacity: 0.8;
+            margin-bottom:30px;
+        }
+        button{
+            padding: 20px 32px;
+            background: #DC4298;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            letter-spacing: 0.4px;
+            color: #FFFFFF;
+            cursor:pointer;
+        }
+    }
+
 }
