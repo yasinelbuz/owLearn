@@ -226,5 +226,183 @@ main.container{
             cursor:pointer;
         }
     }
+}
+.discoverCourse{
+
+    padding-left:40px;
+    padding-right:40px;
+
+    .discoverCourse-title{
+        display:flex;
+        align-items: center;
+        margin-bottom:50px;
+
+        h2{
+            flex-grow: 1;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 135%;
+            color: #090D2C;
+        }
+
+        a{
+            padding: 14px 40px;
+            border: 1px solid #DC4298;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            letter-spacing: 0.4px;
+            color: #DC4298;
+        }
+
+    }
+
+    .discoverCourse-kategory{
+
+        
+
+        a{
+
+            padding: 14px 30px;
+            background: #FFFFFF;
+            border: 1px solid rgba(35, 15, 15, 0.2);
+            border-radius: 100px;
+            color:#230F0F;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            margin-right:12px;
+
+            &.active{
+                color:#fff;
+                background: #DC4298;
+                border: 1px solid #DC4298;
+
+            }
+
+        }
+    }
+
+    .diveder{
+        margin-top:40px;
+        height:2px;
+        background: #DCDCE6;
+        border-radius: 12px;
+    }
+
+    .courses{
+        margin-top:40px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content:flex-start;
+        row-gap: 28px;
+
+        &-box{
+
+
+            max-width: 368px;
+
+            .courses-image{
+
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+                position: relative;
+
+                .people-count{
+                    display:flex;
+                    align-items: center;
+                    position: absolute;
+                    bottom:20px;
+                    left:20px;
+                    padding:6px 15px;
+                    background-color:#fff;
+                    border-radius:20px;
+                    span{
+                        font-weight: 700;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 150%;
+                        letter-spacing: 0.4px;
+                        color: #DC4298;
+                        opacity: 0.8;
+                        margin-left:5px;
+                    }
+                }
+
+            }
+            .courses-content{
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+                border-left:1px solid #ECEFF4;
+                border-right:1px solid #ECEFF4;
+                border-bottom:1px solid #ECEFF4;
+                padding:24px;
+
+                span{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                    letter-spacing: 0.4px;
+                    color: #777795;
+                    margin-bottom:8px;
+                }
+
+                h3{
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 150%;
+                    letter-spacing: 0.6px;
+                    color: #0A0A0A;
+                    margin-bottom:8px;
+                }
+
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #4D4D4D;
+                }
+
+                .price{
+                    display:flex;
+                    justify-content: space-between;
+                    margin-top:25px;
+
+                    .actual-price{
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 150%;
+                        color: #DC4298;
+                    }
+                    .old-price{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #230F0F;
+                        text-decoration:line-through;
+                    }
+
+                    button{
+                        border: 1px solid #DC4298;
+                        border-radius: 8px;
+                        padding: 9px 30px;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 150%;
+                        text-align: center;
+                        color: #DC4298;
+                        cursor:pointer;
+                        background-color: #fff;;
+                    }
+
+                }
+
+            }
+        }
+    }
 
 }
